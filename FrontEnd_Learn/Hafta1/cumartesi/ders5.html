@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Türkiyenin İlleri</h1>
+    <ul>
+        iller 1
+        <ul>ilçeler 1</ul>
+        <ul>ilçeler 2</ul>
+        <ul>ilçeler 3</ul>
+    </ul>
+    <ul>
+        iller 2
+        <ul>ilçeler 1</ul>
+        <ul>ilçeler 2</ul>
+        <ul>ilçeler 3</ul>
+    </ul>
+    <ul>
+        iller 3
+        <ul>ilçeler 1</ul>
+        <ul>ilçeler 2</ul>
+        <ul>ilçeler 3</ul>
+    </ul>
+    <!-- h1>{Türkiyenin İlleri}^ul*3>{iller $}ul*3{ilçeler $} -->
+    <h2>Türkiyenin İlleri</h2>
+    <ol>
+        <li>
+            <hr>
+            Ankara
+            <br> 
+            <img src="resim/ankara.jpeg" width="20%" alt="ankara resmi">
+            <br>
+            <a target="_blank" href="https://tr.wikipedia.org/wiki/Ankara">detaylı bilgi için tıklayın</a>
+    
+            <ul>
+                <li>ilçe 1</li>
+                <li>ilçe 2</li>
+                <li>ilçe 3</li>
+            </ul>
+        </li>
+        <li>
+            <hr>
+            Erzurum 
+            <br> 
+            <img src="resim/erzurum.jpeg" width="20%" alt="ankara resmi">
+            <br>
+            <a target="_blank" href="https://tr.wikipedia.org/wiki/Erzurum">detaylı bilgi için tıklayın</a>
+            <br>
+            <a href="newhtml/erzurum.html">bu da benim sayfam</a>
+            <br>
+            <a target="_blank" href="hakkinda.html">hakkımda sayfası</a>
+            <ul>
+                <li>ilçe 1</li>
+                <li>ilçe 2</li>
+                <li>ilçe 3</li>
+            </ul>
+        </li>
+        <li>
+            <hr>
+            Adana
+            <br> 
+            <img src="resim/adana.jpeg" width="20%" alt="adana resmi">
+            <br>
+            <a target="_blank" href="">detaylı bilgi için tıklayın</a>
+
+            <ul>
+                <li>ilçe 1</li>
+                <li>ilçe 2</li>
+                <li>ilçe 3</li>
+            </ul>
+        </li>
+    </ol>
+
+    
+    <!-- h2>{Türkiyenin İlleri}^ol>li*3>{il }ul>li*3>{ilçe $} -->
+</body>
+</html>
